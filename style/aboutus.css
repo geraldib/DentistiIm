@@ -1,0 +1,178 @@
+#head_of_page{
+      background-image: url("https://practo-fabric.s3.amazonaws.com/jaws-dental-clinic-implant-centre-chennai-1459252952-56fa6ed89e0fb.JPG") ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+#main_h1{
+  padding-bottom: 200px;
+  text-align: center;
+   font-size: 100px;
+   color: #353e44;
+}
+
+#googleMap{
+
+     height:400px;
+	   position: absolute;
+	   width: 40%;
+	   margin-top: 5%;
+	   margin-left: 2.4%;
+
+}
+
+#information_section{
+
+	   position: absolute;
+	   width: 40%;
+	   margin-top: 5%;
+	   margin-left: 56.7%;
+	   color: yellow;
+}
+
+
+#hr_1{
+    
+   margin-top: 70%;
+   width: 93.7%;
+   margin-left: 2.3%;
+   
+}
+
+
+
+#ul_1{
+	margin-left: 40%;
+	list-style-type: none;	
+}
+a{
+	text-decoration: none;
+  color:#485872;
+	
+}
+
+a:hover{
+   color: yellow;
+}
+
+#ul_2{
+	margin-top: -150px;
+	margin-left: 2.4%;
+	list-style-type: none;
+}
+
+.list_item1{
+	font-family: 'Oswald', sans-serif;
+	color:#485872;
+}
+
+
+#ul_3{
+	margin-left: 2.4%;
+	list-style-type: none;
+}
+
+
+
+.li_social{
+  display: inline;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  height: 40px;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #e1e9f7;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #485872;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 65%;
+  margin-bottom: 20%;
+}
+
+input[type=submit]:hover {
+  background-color: yellow;
+}
+
+.container {
+  font-family: 'Oswald', sans-serif;
+  color: #485872;
+  width: 30%;
+  margin-top: -200px;
+  margin-left: 70%;
+  
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 300px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 30%;
+    margin-top: 0;
+  }
+}
+
